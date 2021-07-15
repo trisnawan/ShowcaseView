@@ -289,7 +289,8 @@ class ShowcaseManager private constructor(private val builder: Builder) {
                 radiusFocusArea = circleCenterRadius,
                 rect = rect,
                 type = type,
-                gradientFocusEnabled = gradientFocusEnabled
+                gradientFocusEnabled = gradientFocusEnabled,
+                view = view
             )
 
         }
